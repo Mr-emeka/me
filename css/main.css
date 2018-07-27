@@ -121,7 +121,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
   color: #222222;
   line-height: 1.5em;
   margin-bottom: 0;
