@@ -2001,12 +2001,13 @@ nav a:hover {
 }
 
 .banner-area {
-  background: url(../img/material-blue.jpg) no-repeat center center/cover;
+  background: url(../img/runswim.gif) no-repeat center center/cover;
+  height: 664px;
 }
 
 .banner-area .overlay-bg {
   /*background: rgba(132, 96, 246, 0.8);*/
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(76, 181, 247, 0.9); 
 }
 
 @media (max-width: 767px) {
@@ -2160,7 +2161,8 @@ nav a:hover {
 
 .ilene-tabs .nav-item span {
   margin-right: 10px;
-  color: #8460f6;
+  /*color: #8460f6;*/
+  color: #4cb5f7;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2169,7 +2171,8 @@ nav a:hover {
 }
 
 .ilene-tabs .nav-item:hover {
-  background: #8460f6;
+  /*background: #8460f6;*/
+  background: #4cb5f7;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2179,7 +2182,8 @@ nav a:hover {
 }
 
 .ilene-tabs .nav-item.active {
-  background: #8460f6;
+  /*background: #8460f6;*/
+  background: #4cb5f7;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2189,7 +2193,8 @@ nav a:hover {
 }
 
 .service-area {
-  background: #f3487f;
+  /*background: #f3487f;*/
+  background: #4cb5f7;
 }
 
 .single-service .top {
@@ -2222,7 +2227,8 @@ nav a:hover {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 36px;
-  color: #f3487f;
+  /*color: #f3487f;*/
+  color: #4cb5f7;
 }
 
 .single-service .top .content h3 {
@@ -2236,7 +2242,8 @@ nav a:hover {
 
 .single-service .bottom {
   height: 260px;
-  background: #6f7598;
+  /*background: #6f7598;*/
+  background: #CECECE;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -2258,7 +2265,8 @@ nav a:hover {
 }
 
 .single-service:hover .top {
-  background: #f3487f;
+  /*background: #f3487f;*/
+  background: #4cb5f7;
 }
 
 .single-service:hover .top .content span {

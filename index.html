@@ -33,6 +33,20 @@
 				box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 				border-radius: 15px 15px;
 			}
+			.stack {
+				border-radius: 50%;
+				height: 11em;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  				transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+			}
+			.stack-sm {
+				/*border-radius: 50%;*/
+				/*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+				height: 10em;
+			}
+			.stack:hover {
+				box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+			}
 		</style>
 	</head>
 	<body>
@@ -48,6 +62,8 @@
 							<nav class="hide">
 								<a href="index.html">Home</a>
 								<a href="https://medium.com/@martinsOnuoha">Medium</a>
+								<a href="https://www.linkedin.com/in/victor-onuoha-martins/">LinkedIn</a>
+								<a href="https://twitter.com/OnuohaOfficial">Twitter</a>
 								<a href="https://github.com/MartinsOnuoha">Github</a>
 							</nav>
 							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
@@ -64,9 +80,19 @@
 				<div class="row fullscreen align-items-center justify-content-center">
 					<div class="col-lg-10">
 						<div class="banner-content text-center">
+							<style>
+								#changeWord {
+									background: #FFF;
+									color: #4cb5f7;
+									padding-right: 10px;
+									padding-left: 5px;
+									box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+								}
+							</style>
+							<h1 class="text-white">HI,</h1>
 							<h1 class="text-white">Think you got a great idea? <br>
 							Let's make it <span id="changeWord">Even Better</span>...</h1>
-							<p class="text-white">With the right skills and perfect touch you can have that billion dollar idea off the ground.</p>
+							<p class="text-white">With the right skills and perfect touch you can have that billion dollar idea off the ground. 🔥 🚀</p>
 							<a id="meetBtn" href="#" class="animated pulse infinite primary-btn d-inline-flex align-items-center"><span class="mr-10">Meet Me</span><span class="lnr lnr-arrow-right"></span></a>
 						</div>
 					</div>
@@ -95,29 +121,50 @@
 						<div class="col-lg-6 ml-auto">
 							<div class="tab-total-content">
 								<div class="nav ilene-tabs" id="myTab" role="tablist">
-									<a class="nav-item active" id="nav-home-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history" aria-selected="true"><span class="lnr lnr-map"></span>History</a>
-									<a class="nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="nav-mission" aria-selected="false"><span class="lnr lnr-bullhorn"></span>Skills</a>
+									<a class="nav-item active" id="nav-home-tab" data-toggle="tab" href="#nav-history" role="tab" aria-controls="nav-history" aria-selected="true"><span class="lnr lnr-hand"></span>Hello</a>
+									<a class="nav-item" id="nav-profile-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="nav-mission" aria-selected="false"><span class="lnr lnr-rocket"></span>Stack</a>
 									<a class="nav-item" id="nav-contact-tab" data-toggle="tab" href="#nav-vission" role="tab" aria-controls="nav-vission" aria-selected="false"><span class="lnr lnr-sun"></span>Vision</a>
 								</div>
 								<div class="tab-content mt-40" id="nav-tabContent">
 									<div class="tab-pane fade show active" id="nav-history" role="tabpanel" aria-labelledby="nav-home-tab">
 										<div class="single-content">
-											<h3>Who?</h3>
-											<p><b>Martins Victor Onuoha</b>, 21year old self-taught <b>Fullstack Web Developer</b>, with <b>four years</b> of development experience, worked actively on projects for the latter two years for clients locally and internationally.<br> Tech Lead at W.C.A in 2017, mentoring and teaching - also developed contents for <b>Code Week Nigeria 2017</b>. Was CTO and CO-CEO at Gigabyte Developers 2016. Worked actively as Backend Developer at Hatixa Solutions - Building APIs and managing handling DevOps. <br>
+
+											<p id="typed2"><b>Martins Victor Onuoha</b>, 21year old self-taught <b>Fullstack Web Developer</b>, with <b>four years</b> of development experience, worked actively on projects for the latter two years for clients locally and internationally.<br> Tech Lead at W.C.A in 2017, mentoring and teaching - also developed contents for <b>Code Week Nigeria 2017</b>. Was CTO and CO-CEO at Gigabyte Developers 2016. Worked actively as Backend Developer at <b>Hatixa Solutions</b> - Building and integrating APIs. <br>
 
 											Enjoys travelling and spending time with family on free days.</p>
 										</div>
 									</div>
 									<div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-profile-tab">
 										<div class="single-content">
-											<h3>Skill</h3>
-											<p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards – especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach.Small Towns and Big StatesFor evidence of the double standard, we need look no farther than Arlington.</p>
+											<div class="row">
+												<div class="col-md-4">
+													<img src="img/node.png" class="stack img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img src="img/laravel.jpg" class="stack img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img src="img/django.png" class="stack img-fluid" alt="">
+												</div>
+											</div>
+
+											<div class="row" style="margin-top: 10px;">
+												<div class="col-md-4">
+													<img src="img/mongo.png" class="stack-sm img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img src="img/firebase.png" class="stack-sm img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img src="img/vuejs.jpeg" class="stack-sm img-fluid" alt="">
+												</div>
+											</div>
 										</div>
 									</div>
 									<div class="tab-pane fade" id="nav-vission" role="tabpanel" aria-labelledby="nav-contact-tab">
 										<div class="single-content">
-											<h3>Why?</h3>
-											<p>Building scalable solutions and affecting lives around the world.</p>
+										
+											<p>Build scalable Tech Solutions that will positively affect lives around the world.</p>
 										</div>
 									</div>
 								</div>
@@ -137,24 +184,24 @@
 						<div class="single-service">
 							<div class="top">
 								<div class="content text-center">
-									<span class="lnr lnr-magic-wand"></span>
-									<h3>Software</h3>
+									<span class="lnr lnr-rocket"></span>
+									<h3>Software Development</h3>
 								</div>
 							</div>
 							<div class="bottom">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
+								<!-- <p>Few would argue that, despite the advancements of feminism over the past three decades.</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="single-service d-flex flex-column">
 							<div class="bottom order-2 order-sm-1">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
+								<!-- <p>Few would argue that, despite the advancements of feminism over the past three decades.</p> -->
 							</div>
 							<div class="top order-1 order-sm-2">
 								<div class="content text-center">
-									<span class="lnr lnr-book"></span>
-									<h3>Wordpress</h3>
+									<span class="lnr lnr-database"></span>
+									<h3>DBMS</h3>
 								</div>
 							</div>
 						</div>
@@ -168,14 +215,14 @@
 								</div>
 							</div>
 							<div class="bottom">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
+								<!-- <p>Few would argue that, despite the advancements of feminism over the past three decades.</p> -->
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="single-service d-flex flex-column">
 							<div class="bottom order-2 order-sm-1">
-								<p>Few would argue that, despite the advancements of feminism over the past three decades.</p>
+								<!-- <p>Few would argue that, despite the advancements of feminism over the past three decades.</p> -->
 							</div>
 							<div class="top order-1 order-sm-2">
 								<div class="content text-center">
@@ -189,40 +236,38 @@
 			</div>
 		</section>
 		<!-- End Service Area -->
+
 		<!-- Start Exprience Area -->
 		<section class="section-gap exprience-area">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
-							<h2>Beautiful Experiences</h2>
-							<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity.</p>
+							<h2>Recent Blog Post</h2>
+							<p>Here's my most recent blog post on medium.</p>
 						</div>
 					</div>
 				</div>
 				<div class="row align-items-center">
-					<div class="col-lg-3 col-md-6">
+					<div class="col-lg-6 col-md-6">
 						<div class="vector-thumb">
-							<img src="img/v1.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<div class="vector-thumb">
-							<img src="img/v2.jpg" class="img-fluid" alt="">
+							<img src="img/js.png" class="img-fluid" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12">
 						<div class="vector-content mt-30">
-							<h3 class="h2">Vector Illustration</h3>
-							<h4>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed.</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
-							<a href="#" class="primary-btn white-bg">View Details</a>
+							<h3 class="h2">Boolean Arithmetic in JavaScript ?</h3>
+							<h4></h4>
+							<p>Yeah, that’s right, you can perform arithmetic operations boolean values in JavaScript, Why? don’t ask me, I’m as confused as you are! Okay maybe not. 
+							We might be tempted to say JavaScript is such a nice, lenient, confusing language isn’t it? But it doesn’t have to be.</p>
+							<a href="https://medium.com/@martinsOnuoha/boolean-arithmetic-in-javascript-8d33b122f32d" class="primary-btn white-bg">View Details</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Start Exprience Area -->
+
 		<!-- Start Projects Area -->
 		<section class="section-gap projects-area">
 			<div class="container">
@@ -230,7 +275,7 @@
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
 							<h2 class="text-white">Some Projects</h2>
-							<p class="text-white">LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity.</p>
+							<p class="text-white">Slide through a couple of products I've worked on.</p>
 						</div>
 					</div>
 				</div>
@@ -238,12 +283,12 @@
 					<div class="item">
 						<div class="row no-gutters">
 							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
+								<div class="carousel-thumb" style="background: url(img/peep.png);"></div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="carousel-content">
-									<h3>Vector Illustration</h3>
-									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had</p>
+									<h3>Peep</h3>
+									<p>Advertisement and campaign management system. </p>
 								</div>
 							</div>
 						</div>
@@ -251,12 +296,12 @@
 					<div class="item">
 						<div class="row no-gutters">
 							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
+								<div class="carousel-thumb" style="background: url(img/tender.png);"></div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="carousel-content">
-									<h3>Vector Illustration</h3>
-									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had</p>
+									<h3>Tender Afrique</h3>
+									<p>Free Government and Private sector's Tender Catelogue</p>
 								</div>
 							</div>
 						</div>
@@ -264,12 +309,12 @@
 					<div class="item">
 						<div class="row no-gutters">
 							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/c1.jpg);"></div>
+								<div class="carousel-thumb" style="background: url(img/britely.png);"></div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="carousel-content">
-									<h3>Vector Illustration</h3>
-									<p>LCD screens are uniquely modern in style, and the liquid crystals that make them work have allowed humanity to create slimmer, more portable technology than we’ve ever had</p>
+									<h3>Britely OS</h3>
+									<p>Intuitive Office Suite, with project management and team management system.</p>
 								</div>
 							</div>
 						</div>
@@ -338,7 +383,7 @@
 		<!-- End Subscription Area -->
 
 		<!-- Strat Footer Area -->
-		<footer class="section-gap">
+<!-- 		<footer class="section-gap">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-3 col-sm-6">
@@ -400,7 +445,7 @@
 					</div>
 				</div>
 			</div>
-		</footer>
+		</footer> -->
 		<!-- End Footer Area -->
 
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
@@ -410,28 +455,19 @@
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/jquery.nice-select.min.js"></script>
 		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/typed.min.js"></script>
 		<script src="js/main.js"></script>
 		<script>
-		(function(){
 
-		    // List your words here:
-		    var words = [
-		        'AWESOME',
-		        'INCREDIBLE',
-		        'COOL',
-		        'FANTASTIC',
-		        'WORK',
-		        'Even Better'
-		        ], i = 0;
+		  var typed2 = new Typed('#changeWord', {
+		    strings: ['A PRODUCT', 'SCALE', 'SELL', 'MARKET READY', 'WORK', 'EVEN BETTER'],
+		    typeSpeed: 50,
+		    backSpeed: 30,
+		    fadeOut: true,
+		    loop: true
+		  });
 
-		    setInterval(function(){
-		        $('#changeWord').fadeOut(function(){
-		            $(this).html(words[i=(i+1)%words.length]).fadeIn();
-		        });
-		       // 2 seconds
-		    }, 2000);
 
-		})();
 		$('#meetBtn').click(function () {
 			document.querySelector('#intro').scrollIntoView({
 				behavior: 'smooth'
