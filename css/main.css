@@ -1980,10 +1980,12 @@ nav a:hover {
   background: #fff;
   border: 1px solid #eee;
   color: #8460f6;
+
 }
 
 .primary-btn.white-bg span {
-  color: #8460f6;
+/*  color: #8460f6;*/
+color: #03A9F4;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1991,7 +1993,7 @@ nav a:hover {
 }
 
 .primary-btn.white-bg:hover {
-  background: #8460f6;
+  background: #03A9F4;
   color: #fff;
   border: 1px solid transparent;
 }
