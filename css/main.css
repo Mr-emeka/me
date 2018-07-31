@@ -2242,8 +2242,8 @@ nav a:hover {
 
 .single-service .bottom {
   height: 260px;
-  /*background: #6f7598;*/
-  background: #CECECE;
+  background: #6f7598;
+  /*background: #CECECE;*/
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
