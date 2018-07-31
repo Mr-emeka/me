@@ -2007,7 +2007,7 @@ nav a:hover {
 
 .banner-area .overlay-bg {
   /*background: rgba(132, 96, 246, 0.8);*/
-  background-color: rgba(76, 181, 247, 0.9); 
+  background-color: rgba(76, 181, 247, 0.8); 
 }
 
 @media (max-width: 767px) {
@@ -2473,7 +2473,7 @@ nav a:hover {
 }
 
 .subscription-area {
-  background: #f9c400;
+  background: #29B6F6;
   padding: 100px 0;
 }
 

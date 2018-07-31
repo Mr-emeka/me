@@ -138,37 +138,37 @@
 										<div class="single-content">
 											<div class="row">
 												<div class="col-md-4">
-													<img src="img/node.png" class="stack img-fluid" alt="">
+													<img data-src="img/node.png" class="lazyload stack img-fluid" alt="">
 												</div>
 												<div class="col-md-4">
-													<img src="img/laravel.png" class="stack img-fluid" alt="">
+													<img data-src="img/laravel.png" class="lazyload stack img-fluid" alt="">
 												</div>
 												<div class="col-md-4">
-													<img src="img/django.png" class="stack img-fluid" alt="">
-												</div>
-											</div>
-
-											<div class="row" style="margin-top: 10px;">
-												<div class="col-md-4">
-													<img src="img/mongo.png" class="stack-sm img-fluid" alt="">
-												</div>
-												<div class="col-md-4">
-													<img src="img/firebase.png" class="stack-sm img-fluid" alt="">
-												</div>
-												<div class="col-md-4">
-													<img src="img/vuejs.jpeg" class="stack-sm img-fluid" alt="">
+													<img data-src="img/django.png" class="lazyload stack img-fluid" alt="">
 												</div>
 											</div>
 
 											<div class="row" style="margin-top: 10px;">
 												<div class="col-md-4">
-													<img src="img/angular.png" class="stack-sm img-fluid" alt="">
+													<img data-src="img/mongo.png" class="lazyload stack-sm img-fluid" alt="">
 												</div>
 												<div class="col-md-4">
-													<img src="img/flutter.png" class="stack-sm img-fluid" alt="">
+													<img data-src="img/firebase.png" class="lazyload stack-sm img-fluid" alt="">
 												</div>
 												<div class="col-md-4">
-													<img src="img/heroku.png" class="stack-sm img-fluid" alt="">
+													<img data-src="img/vuejs.jpeg" class="lazyload stack-sm img-fluid" alt="">
+												</div>Respon
+											</div>
+
+											<div class="row" style="margin-top: 10px;">
+												<div class="col-md-4">
+													<img data-src="img/angular.png" class="lazyload stack-sm img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img data-src="img/flutter.png" class="lazyload stack-sm img-fluid" alt="">
+												</div>
+												<div class="col-md-4">
+													<img data-src="img/heroku.png" class="lazyload stack-sm img-fluid" alt="">
 												</div>
 											</div>
 										</div>
@@ -239,7 +239,7 @@
 							<div class="top order-1 order-sm-2">
 								<div class="content text-center">
 									<span class="lnr lnr-laptop-phone"></span>
-									<h3>UX Design</h3>
+									<h3>Responsive Design</h3>
 								</div>
 							</div>
 						</div>
@@ -263,7 +263,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-6">
 						<div class="vector-thumb">
-							<img src="img/js.png" class="img-fluid" alt="">
+							<img data-src="img/js.png" class="lazyload img-fluid" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12">
@@ -295,7 +295,7 @@
 					<div class="item">
 						<div class="row no-gutters">
 							<div class="col-lg-8 col-md-6">
-								<div class="carousel-thumb" style="background: url(img/peep.png);"></div>
+								<div class="lazyload carousel-thumb" style="background: url(img/peep.png);"></div>
 							</div>
 							<div class="col-lg-4 col-md-6">
 								<div class="carousel-content">
@@ -459,7 +459,7 @@
 			</div>
 		</footer> -->
 		<!-- End Footer Area -->
-
+		<script src="/js/lazysizes.min.js" async=""></script>
 		<script src="js/vendor/jquery-2.2.4.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 		<script src="js/vendor/bootstrap.min.js"></script>
@@ -481,12 +481,11 @@
 
 		 var typed1 = new Typed('#visionWords', {
 		 	strings: [
-		 		"git push --force ^1000\n `pushed to origin with option force`",
 		 		'Build scalable Tech Solutions that will \n positively affect lives around the world.',
 		 		'Help young individuals in the tech space build their skills.',
 		 		'Inspire....',
 		 		'Be amongst the few recognised, preferred and respectable Tech Personalities.',
-		 		'Lead....'
+		 		'Lead....',
 		 		'Make Leaders....'
 		 		],
 		 	loop: true,
