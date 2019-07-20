@@ -1979,8 +1979,8 @@ nav a:hover {
 .primary-btn.white-bg {
   background: #fff;
   border: 1px solid #eee;
-  color: #8460f6;
-
+  /*color: #8460f6;*/
+  color: #03A9F4;
 }
 
 .primary-btn.white-bg span {
@@ -2196,9 +2196,8 @@ color: #03A9F4;
 
 .service-area {
   /*background: #f3487f;*/
-  background: #4cb5f7;
+  /*background: #4cb5f7;*/
 }
-
 .single-service .top {
   height: 260px;
   background: #fff;
@@ -2296,7 +2295,7 @@ color: #03A9F4;
 }
 
 .projects-area {
-  background: #5dd1e3;
+  /*background: #5dd1e3;*/
 }
 
 .active-project-carousel {
@@ -2355,7 +2354,8 @@ color: #03A9F4;
   line-height: 40px;
   width: 40px;
   border-radius: 20px 20px 0 0;
-  background: #fff;
+  /*background: #fff;*/
+  background: gainsboro;
   text-align: center;
   margin-bottom: 1px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2381,7 +2381,8 @@ color: #03A9F4;
 }
 
 .active-project-carousel .owl-controls .owl-nav .owl-prev:hover {
-  background: #8460f6;
+  /*background: #8460f6;*/
+  background: rgba(76, 181, 247, 0.8);
 }
 
 .active-project-carousel .owl-controls .owl-nav .owl-prev:hover i {
@@ -2392,7 +2393,8 @@ color: #03A9F4;
   line-height: 40px;
   width: 40px;
   border-radius: 0 0 20px 20px;
-  background: #fff;
+  /*background: #fff;*/
+  background: gainsboro;
   text-align: center;
   margin-top: 1px;
 }
@@ -2414,7 +2416,8 @@ color: #03A9F4;
 }
 
 .active-project-carousel .owl-controls .owl-nav .owl-next:hover {
-  background: #8460f6;
+  /*background: #8460f6;*/
+  background: rgba(76, 181, 247, 0.8);
 }
 
 .active-project-carousel .owl-controls .owl-nav .owl-next:hover i {
@@ -2655,4 +2658,28 @@ footer .footer-nav li a:hover {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.exprience-area {
+  background: #f2f5f7 !important;
+}
+.recent-post-img {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 15px 15px;
+}
+#me {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 15px 15px;
+}
+.project-img, .project-detail {
+  height: 400px;
+}
+.project-img {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.carousel-content {
+  height: inherit;
+}
+.contact-area {
+  background: #f2f5f7 !important;
 }

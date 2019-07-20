@@ -32,10 +32,32 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 		<style>
-			#me {
-				box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-				border-radius: 15px 15px;
-			}
+
+
+		  /* ----------- Non-Retina Screens ----------- */
+		  @media screen
+		    and (min-device-width: 1200px)
+		    and (max-device-width: 1600px)
+		    and (-webkit-min-device-pixel-ratio: 1) {
+		      #me {
+						height: 300px !important;
+						width: 410px !important;
+						max-width: 500px !important;
+					}
+		  }
+
+		  /* ----------- Retina Screens ----------- */
+		  @media screen
+		    and (min-device-width: 1200px)
+		    and (max-device-width: 1600px)
+		    and (-webkit-min-device-pixel-ratio: 2)
+		    and (min-resolution: 192dpi) {
+		      #me {
+						height: 300px !important;
+						width: 410px !important;
+						max-width: 500px !important;
+					}
+		  }
 			.stack {
 				border-radius: 50%;
 				height: 8em;
@@ -118,7 +140,7 @@
 					<div class="row justify-content-between">
 						<div class="col-lg-4">
 							<div class="tab-thumb text-center">
-								<img id="me" src="img/banner-me.jpg" class="img-fluid" alt="">
+								<img id="me" src="img/me.jpg" class="img-fluid" alt="">
 							</div>
 						</div>
 						<div class="col-lg-6 ml-auto">
@@ -132,9 +154,9 @@
 									<div class="tab-pane fade show active" id="nav-history" role="tabpanel" aria-labelledby="nav-home-tab">
 										<div class="single-content">
 
-											<p id=""><b>Martins Victor Onuoha</b>, Self-taught <b>Fullstack Web Developer</b>, with <b>four years</b> of development experience,has worked actively on projects for the latter two years for clients locally and internationally.<br> Was Tech Lead at W.C.A in 2017, mentoring and teaching - developed contents and curriculum for <b>Code Week Nigeria 2017</b>. Was CTO and CO-CEO at Gigabyte Developers 2016. Worked actively as Backend Developer at <b>Hatixa Solutions</b> - Building and integrating APIs. <br>
+											<p id=""><b>Martins Victor Onuoha</b>, Self-taught <b>Fullstack Web Developer</b>, with <b>over four years</b> of active development experience, has worked actively on production level projects for the latter 3 years.<br> Was Tech Lead at W.C.A in 2017, mentoring and teaching - developed contents and curriculum for <b>Code Week Nigeria 2017</b>. Was CTO and CO-CEO at Gigabyte Developers 2016. Worked actively as a Fullstack Developer at <b>Hatixa Solutions</b> - Building and integrating APIs. <br>
 
-											Enjoys travelling ✈️ and spending time with family on free days...A 100 WATTS smile 😁, A cup of coffee ☕️, a good blogpost 📃 and some lines of codes. 🚀</p>
+											Enjoys travelling ✈️ and spending time alone ( lol )...Would share A 100 WATTS smile 😁, A cup of coffee ☕️, a good blogpost 📃 and some lines of codes. 🚀</p>
 										</div>
 									</div>
 									<div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-profile-tab">
@@ -204,14 +226,14 @@
 								</div>
 							</div>
 							<div class="bottom">
-								<p>User Management? We've got you covered.</p>
+								<p>User Management? I've got you covered.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="single-service d-flex flex-column">
 							<div class="bottom order-2 order-sm-1">
-								<p>Using latest and reliable technologies, we can build that idea into a scalable software.</p>
+								<p>Using latest and reliable technologies, I can build that idea into a scalable software.</p>
 							</div>
 							<div class="top order-1 order-sm-2">
 								<div class="content text-center">
@@ -263,10 +285,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="row align-items-center">
+				<div class="row align-items-center" style="background: #fff">
 					<div class="col-lg-6 col-md-6">
 						<div class="vector-thumb">
-							<img data-src="img/js.png" class="lazyload img-fluid" alt="">
+							<img data-src="img/js.png" class="lazyload img-fluid recent-post-img" alt="">
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-12">
@@ -289,18 +311,18 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8">
 						<div class="section-title text-center">
-							<h2 class="text-white">Some Projects</h2>
-							<p class="text-white">Slide through a couple of products I've worked on.</p>
+							<h2 class="">Projects</h2>
+							<p class="">Slide through a couple of products I've worked on.</p>
 						</div>
 					</div>
 				</div>
 				<div class="active-project-carousel">
 					<div class="item">
 						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
+							<div class="col-lg-8 col-md-6 project-img">
 								<div class="lazyload carousel-thumb" style="background: url(img/peep.png);"></div>
 							</div>
-							<div class="col-lg-4 col-md-6">
+							<div class="col-lg-4 col-md-6 project-detail">
 								<div class="carousel-content">
 									<h3>Peep</h3>
 									<p>Advertisement and campaign management system. </p>
@@ -310,10 +332,10 @@
 					</div>
 					<div class="item">
 						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
+							<div class="col-lg-8 col-md-6 project-img">
 								<div class="carousel-thumb" style="background: url(img/tender.png);"></div>
 							</div>
-							<div class="col-lg-4 col-md-6">
+							<div class="col-lg-4 col-md-6 project-detail">
 								<div class="carousel-content">
 									<h3>Tender Afrique</h3>
 									<p>Free Government and Private sector's Tender Catelogue</p>
@@ -323,10 +345,10 @@
 					</div>
 					<div class="item">
 						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
+							<div class="col-lg-8 col-md-6 project-img">
 								<div class="carousel-thumb" style="background: url(img/britely.png);"></div>
 							</div>
-							<div class="col-lg-4 col-md-6">
+							<div class="col-lg-4 col-md-6 project-detail">
 								<div class="carousel-content">
 									<h3>Britely OS</h3>
 									<p>Intuitive Office Suite, with project management and team management system.</p>
@@ -336,10 +358,23 @@
 					</div>
 					<div class="item">
 						<div class="row no-gutters">
-							<div class="col-lg-8 col-md-6">
+							<div class="col-lg-8 col-md-6 project-img">
+								<div class="carousel-thumb" style="background: url(img/wca.png);"></div>
+							</div>
+							<div class="col-lg-4 col-md-6 project-detail">
+								<div class="carousel-content">
+									<h3>Wifi Combat Academy</h3>
+									<p>Official site for the WCA Team.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="row no-gutters">
+							<div class="col-lg-8 col-md-6 project-img">
 								<div class="carousel-thumb" style="background: url(img/ritenanny.png);"></div>
 							</div>
-							<div class="col-lg-4 col-md-6">
+							<div class="col-lg-4 col-md-6 project-detail">
 								<div class="carousel-content">
 									<h3>RiteNanny</h3>
 									<p>Online Nanny Agency.</p>
@@ -352,7 +387,7 @@
 		</section>
 		<!-- Start Projects Area -->
 		<!-- Start Exprience Area -->
-		<section class="section-gap">
+		<section class="section-gap contact-area">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8">
@@ -432,9 +467,9 @@
 		 var typed1 = new Typed('#visionWords', {
 		 	strings: [
 		 		'Build scalable Tech Solutions that will \n positively affect lives around the world.',
-		 		'Help young individuals in the tech space build their skills.',
+		 		'Help young individuals in the tech space be a better version of themselves.',
 		 		'Inspire....',
-		 		'Be amongst the few recognised, preferred and respectable Tech Personalities.',
+		 		'Create priceless solutions...',
 		 		'Lead....',
 		 		'Make Leaders....'
 		 		],
