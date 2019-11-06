@@ -1,5 +1,5 @@
 <?php
-    $to = 'martinsvictor.nd@gmail.com';
+    $to = 'speak2c.emeka@gmail.com';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
